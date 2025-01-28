@@ -6,15 +6,17 @@
 }
 
 .card-container {
-    margin-top: 2rem;
+    margin: 2rem auto;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
 
 }
 
 .card {
-    width: 375px;
+    width: 300px;
     height: 400px;
 
     display: inline-block;
