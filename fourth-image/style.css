@@ -57,9 +57,24 @@ input::placeholder {
 }
 
 .not-member {
+    margin-top: 1rem;
+}
+
+.not-member, .forget-password , .terms{
+    font-size: small;
+    margin-bottom: 0.6rem;
 
 }
 
 .forget-password {
-    
+    font-size: small;
+    text-decoration: underline;
 }
+
+ .not-member > span, .forget-password > span , .terms > span {
+    text-decoration: underline;
+}
+
+.terms {
+    padding: 0 0.5rem;
+} 
